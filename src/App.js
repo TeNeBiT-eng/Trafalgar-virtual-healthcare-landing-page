@@ -8,7 +8,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-          <i class="fa-solid fa-grid"></i>
         </p>
         <a
           className="App-link"

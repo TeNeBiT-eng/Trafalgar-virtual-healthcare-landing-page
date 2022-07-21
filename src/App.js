@@ -21,10 +21,10 @@ import "./App.css";
 const App = () => (
   <>
     <Header />
-    <Articles />
-    <Downloadapp />
-    <Healthcare />
     <Services />
+    <Healthcare />
+    <Downloadapp />
+    <Articles />
     <Testimonials />
     <Footer />
   </>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Downloadapp = () => {
   return (
-    <div>Downloadapp</div>
+    <main>DownloadApp</main>
   )
 }
 

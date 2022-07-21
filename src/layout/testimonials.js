@@ -4,7 +4,7 @@ import "../App.css";
 
 const Testimonials = () =>{
     return (
-        <>Testimonials</>
+        <main>Testimonials</main>
     )
 }
 export default Testimonials;

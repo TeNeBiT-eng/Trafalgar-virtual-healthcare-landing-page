@@ -14,7 +14,7 @@ import Trafalgaronlinepharmarmacy from "./trafalgaronlinepharmacy.svg";
 import Trafalgarsearch from "./trafalgarsearch.svg";
 import Trafalgartracking from "./trafalgartracking.svg";
 
-const SVG = {
+export const SVG = {
   Arrow,
   Bgelement,
   Downloadarrow,
@@ -31,4 +31,3 @@ const SVG = {
   Trafalgarsearch,
   Trafalgartracking,
 };
-export default SVG;

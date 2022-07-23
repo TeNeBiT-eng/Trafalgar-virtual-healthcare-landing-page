@@ -144,9 +144,10 @@ h2::after{
   margin: 3rem auto;
 }
 .card{
-  border: 1px solid #7D7987;
-  width: 23%;
-  padding: 2rem 1rem;
+  /* border: 1px solid #7D7987; */
+  width: 90%;
+  /* margin: 0, auto; */
+  padding: 3rem 2rem;
   border-radius: 1.2rem;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 }
@@ -158,3 +159,13 @@ h2::after{
   line-height: 1.5;
   font-size: 1rem;
 }
+.servicesImg{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+}
+/* .servicesImg img{
+  width: 100%;
+} */

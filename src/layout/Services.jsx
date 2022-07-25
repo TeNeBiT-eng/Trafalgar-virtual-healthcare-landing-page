@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../components/Card";
 import { SVG } from "../asset/svg/Svg";
 
-
 const Services = () => {
   return (
     <section className="section2">
@@ -15,13 +14,15 @@ const Services = () => {
       </p>
       <div className="servicesImg">
         <Card Img={SVG.Trafalgarsearch} />
-        <Card Img={SVG.Trafalgaronlinepharmarmacy}/>
-        <Card Img={SVG.Trafalgarconsultation}/>
-        <Card Img={SVG.Trafalgardetailnote}/>
-        <Card Img={}/>
-        <Card Img={SVG.Trafalgartracking}/>
+        <Card Img={SVG.Trafalgaronlinepharmarmacy} />
+        <Card Img={SVG.Trafalgarconsultation} />
+        <Card Img={SVG.Trafalgardetailnote} />
+        <Card Img={SVG.Trafalgarconsultation} />
+        <Card Img={SVG.Trafalgartracking} />
       </div>
-      
+      <div className="learnBtn">
+        <button>Learn more</button>
+      </div>
     </section>
   );
 };
